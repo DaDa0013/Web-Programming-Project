@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 글씨체를 구글에서 link 태그로  가져옴 -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu&family=Gamja+Flower&family=Gothic+A1&family=Gugi&family=Hi+Melody&family=Jua&family=Kirang+Haerang&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Noto+Sans+KR&family=Noto+Serif+KR&family=Poor+Story&family=Single+Day&family=Song+Myung&family=Stylish&family=Sunflower:wght@300&family=Yeon+Sung&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rule</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- 웹페이지 상단에 표시되는 메뉴바로, 다른 페이지들로 이동할 수 있는 버튼들의 모임-->
+      <table id="table2">
+        <tr>
+          <td>
+            <a href="corona_number.html">
+              <img
+                  class="imgLink"
+                  src="images/number.png"
+                  alt="코로나 실 현황 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="rule.html">
+                <img
+                  class="imgLink"
+                  src="images/수칙.png"
+                  alt="예방 및 방역 수칙 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="symptom.html">
+                <img
+                  class="imgLink"
+                  src="images/symptom.png"
+                  alt="코로나 바이러스 증상 페이지로 이동합니다."
+                />
+              </a>
+            </td>
+            <td>
+              <a href="about_corona.html">
+                <img
+                  class="imgLink"
+                  src="images/about_corona.png"
+                  alt="about 코로나 페이지로 이동합니다."
+                />
+              </a>
+            </td>
+            <td>
+              <a href="corona_blue.html">
+                <img
+                  class="imgLink"
+                  src="images/corona_blue.png"
+                  alt="코로나 블루 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="tip.html">
+                <img
+                  class="imgLink"
+                  src="images/tip.png"
+                  alt="생활 팁 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="home.html">
+                <img
+                  class="imgLink"
+                  src="images/home.png"
+                  alt="메인 페이지로 이동합니다."
+                />
+              </a>
+            </td>
+          </tr>
+        </table>
+      <div id="in">
+      <div id="wrap_prime">
+        <h1 style="padding-left: 20%; font-size: 50px; padding-top: 20px;">수칙</h1>
+        <!-- 페이지 왼쪽 상단부분에 코로나 예방 수칙을 리스트 형식으로 표시
+              각 리스트들은 마우스가 올라왔을 때 배경이 pink색으로, 글씨 굵기가 커지도록 변화함 -->
+        <div id="up">
+          <h2   style="margin-left: 20%;font-size: 40px;">코로나 예방 수칙</h2>
+          <hr />
+          <div class="rules">
+            <h2>필수 위생수칙 4가지</h2>
+            <ul>
+              <li>비누로 30초 이상 꼼꼼하게 손 씻기</li>
+              <li>기침할 땐 옷소매로 입과 코를 가리기</li>
+              <li>기침 등 호흡기 증상 시 마스크 착용하기</li>
+              <li>
+                무증상으로 보이더라도 타인과 안전한 거리(1미터 이상)를 유지하기
+              </li>
+              <li>의료기관(선별진료소) 방문 시 해외여행력 알리기</li>
+            </ul>
+
+            <h2>해외 여행/방문 시 주의사항</h2>
+            <ul>
+              <li>
+                코로나19의 자역사회 감염이 발생한 지역의 여행 및 방문 최소화
+              </li>
+              <li>
+                노인이거나 기저질환자는 더욱 큰 위험에 노출될 수 있으니 사전에
+                의사와 상의
+              </li>
+              <li>여행 중 가금류 및 야생동물 접촉 금지</li>
+              <li>
+                해외여행 전 위생용품(손소독제) 및 개인보호구(마스크)등 준비</li>
+              <li>입국 시 검역관에게 건강상태질문서 제출</li>
+              <li>의료기관 방문 시 해외 여행력을 의료진에게 알리기</li>
+            </ul>
+          </div>
+        </div>
+        <div id="down">
+          <!-- 페이지 왼쪽 하단에 코로나 방역수칙을 표형식으로 표현
+                목차를 만들어 앵커를 이용하여, 목차를 누르면 해당 위치로 이동 -->
+          <h2 class="rule_title">코로나 방역 수칙</h2>
+          <hr>
+          <h3 style="font-size:30px">목차(누르면 이동합니다)</h3>
+          <ul style="font-weight: bold;">
+            <li><a href="#content1">모임 & 행사 & 집회</a></li>
+            <li><a href="#content2">접종증명·음성확인제 적용의무 시설</a></li>
+            <li><a href="#content3">접종증명·음성확인제 미적용 시설</a></li>
+            <li><a href="#content4">고위험 사업장</a></li>
+          </ul>
+          
+          <p id="content1">모임 & 행사 & 집회</p>
+
+          <table class="rule_table" border="1">
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">사적 모임</td>
+              <td>
+                <span>
+                  <ul>
+                    <li><span style="color:red">12</span>명까지 사적모임 가능(접종완료 여부 구분 없음)</li>
+                    <li>
+                      (식당·카페) 12명까지 가능하나 미접종자는 최대 4명까지만
+                      이용가능
+                    </li>
+                    <li><적용제외></li>
+                    <ol>
+                      <li>거주 공간이 동일한 가족 등*이 모이는 경우</li>
+                      <li>
+                        아동(만12세이하), 노인, 장애인 등 돌봄이 필요한
+                        경우(돌보미 인원을 말함)
+                      </li>
+                      <li>임종 가능성이 있어 가족, 지인 등이 모이는 경우</li>
+                      <li>
+                        다중이용시설 등의 진행요원, 종사자 등(단, 유흥종사자는
+                        포함)
+                      </li>
+                      <li>
+                        실외 스포츠 경기장에서 '스포츠 경기 진행'을 목적으로
+                        모이는 경우
+                      </li>
+                    </ol>
+                  </ul>
+                </span>
+              </td>
+            </tr>
+          </table>
+
+          <p id="content2">접종증명·음성확인제 적용의무 시설</p>
+          <table class="rule_table" border="1">
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">
+                유흥시설 5종,<br>(유흥주점, 단란주점, 감성주점, 헌팅포차,
+                클럽·나이트) 콜라텍‧무도장
+              </td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 05시부터 24시까지<br />
+                  (밀집도) 제한 없음 <br />
+                  (이용 가능 대상) 접종 완료자**, 완치자<br />
+                  (취식 가능 여부) 유흥시설은 가능, 콜라텍·무도장은 불가능<br />
+                  (접종증명·음성확인제) 의무 적용(접종 완료자**만 이용가능)<br />
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">
+                (코인)노래연습장, 목욕장업, 실내체육시설,경륜·경정‧경마장,
+                카지노
+              </td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span>제한 없음<br />
+                  (밀집도) 제한 없음<br />
+                  (이용 가능 대상) 접종 완료자 등*<br />
+                  (취식 가능 여부) 불가능<br />
+                  (접종증명·음성확인제) 의무 적용(접종완료자 등*이 이용가능하나,
+                  경륜·경정·경마장/카지노, 입원자·입소자 면회, 노인·장애인 시설
+                  이용은 접종 완료자와 PCR음성자만 가능)
+                </span>
+              </td>
+            </tr>
+          </table>
+          <p id="content3">접종증명·음성확인제 미적용 시설</p>
+          <table class="rule_table" border="1">
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">식당·카페(홀덤펍)</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (밀집도) 테이블 간 1m 거리두기 또는 한 칸 띄우기 또는 칸막이
+                  설치<br />
+                  (이용 가능 대상) 제한 없음(미접종자는 최대 4명까지)<br />
+                  (취식 가능 여부) 가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">영화관‧공연장</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (밀집도) 일행 간 한 칸 띄우기<br />
+                  ※ 접종완료자 등*으로만 구성 시 한 칸 띄우기 해제<br />
+                  (취식 가능 여부) 불가능<br />
+                  ※ (영화관) 접종완료자 등*으로만 구성 시 취식 가능<br />
+                  (이용 가능 대상) 제한 없음
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">스포츠경기(관람)장</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (이용 가능 대상) 제한 없음<br />
+                  (밀집도) 수용인원의 50%<br />
+                  ※ 접종완료자 등*으로만 구성 시 인원 제한 해제<br />
+                  (취식 가능 여부) 불가능<br />
+                  ※ 접종완료자 등*으로만 구성 시 취식 가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">학원 등(좌석 있는 경우) 독서실·스터디카페·PC방</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (밀집도) 좌석 한 칸 띄우기(좌석 간 칸막이 있는 경우 해제)<br />
+                  ※ (학원) 좌석 간 칸막이 있는 경우에도 좌석 한 칸 띄우기
+                  유지<br />
+                  ※ 접종완료자 등*으로만 구성 시 인원 제한 해제(학원·독서실
+                  제외)<br />
+                  (이용 가능 대상) 제한 없음<br />
+                  (취식 가능 여부) 불가능<br />
+                  ※ (PC방) 좌석 간 칸막이 있는 경우 취식 가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">놀이공원‧워터파크</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span>제한 없음<br />
+                  (밀집도) 수용인원의 50%<br />
+                  (이용 가능 대상) 제한 없음<br />
+                  (취식 가능 여부) 가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">실외체육시설‧상점‧마트‧백화점,박물관‧미술관‧과학관‧도서관</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (밀집도) 제한 없음<br />
+                  (이용 가능 대상) 제한 없음<br />
+                  (취식 가능 여부) 불가능<br />
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige"> 전시회‧박람회</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (밀집도) 제한 없음<br />
+                  (이용 가능 대상) 아래 수칙 중 택일하여 적용(혼합 적용 불가) -
+                  접종 구분 없이 100명 미만<br />
+                  - 접종완료자 등*으로 구성 시 500명 미만<br />
+                  ※ 종전 수칙(6㎡당 1명 및 부스 내 상주인력 PCR 음성 확인)도
+                  택일 적용 가능<br />
+                  (취식 가능 여부) 불가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">국제회의‧학술행사</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span>제한 없음<br />
+                  (밀집도) 좌석 한 칸 띄우기<br />
+                  (이용 가능 대상) 아래 수칙 중 택일하여 적용(혼합 적용 불가)<br />
+                  - 접종 구분 없이 100명 미만<br />
+                  - 접종완료자 등*으로 구성 시 500명 미만<br />
+                  ※ (국제회의) 종전 수칙(좌석 간 2칸 띄우기)도 택일 적용 가능<br />
+                  (취식 가능 여부) 가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">결혼식, 돌잔치, 장례식</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (취식 가능 여부) 가능<br />
+                  (밀집도) 시설 신고·허가 면적의 4㎡당 1명, 테이블 간 1m
+                  거리두기 또는 한 칸 띄우기 또는 칸막이 설치<br />
+                  ※ 결혼식은 개별 결혼식당 웨딩홀 면적 4㎡당 1명으로 운영<br />
+                  (이용 가능 대상) 아래 수칙 중 택일하여 적용(혼합 적용 불가)<br />
+                  - 접종 구분 없이 100명 미만<br />
+                  - 접종완료자 등*으로 구성 시 500명 미만<br />
+                  ※ (결혼식) 종전 수칙(49명+접종 완료자 201명)도 택일 적용 가능
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">종교시설</td>
+              <td>
+                <span class="rule_content">
+                  <span style="color:red">(운영시간)</span> 제한 없음<br />
+                  (이용 가능 대상) 제한 없음<br />
+                  (밀집도) 수용인원의 50%<br />
+                  ※ 접종완료자 등*으로만 구성 시 제한 없음<br />
+                  (취식 가능 여부) 불가능<br />
+                  (기타) 통성기도 등 금지, 정규종교활동(예배 등) 외 행사는
+                  일반행사 기준 적용, 접종 완료자로만 구성 시 소모임·성가대
+                  가능<br />
+                </span>
+              </td>
+            </tr>
+          </table>
+          <p id="content4">고위험 사업장</p>
+          <table class="rule_table" border="1">
+            <tr>
+              <td style="background-color: cornflowerblue; color:beige">콜센터/물류센터</td>
+              <td>전체 근로자에게 방역수칙 게시 안내</td>
+            </tr>
+          </table>
+        </div>
+        <footer id="side">
+          <section>
+            <!-- 페이지 오른쪽 영역에 예방 수칙 체크리스트를 만들어, 스크롤로 이동하여도 항상 오른쪽 영역에 고정할 수 있게 함
+            -->
+            <h2>예방 수칙 체크리스트</h2>
+            <hr>
+            <table id="checklist">
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />비누로 30초 이상 꼼꼼하게 손을 씻는다<br>
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />기침할 땐 옷소매로 입과 코를 가린다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />기침 등 호흡기 증상 시 마스크
+                    착용한다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />무증상으로 보이더라도 타인과 안전한
+                    거리(1미터 이상)를 유지한다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />사람이 많은 곳에 방문을 자제한다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />2m(최소 1m) 개인 간 거리두기를실천한다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />밀폐 시설 이용을 자제한다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />코로나 방역수칙을 자주 확인하고 방역 수칙에 맞게 다중이용시설을 이용한다
+                  </form>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />밀폐 시설 이용 시 자주 환기를 한다
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <form>
+                    <input type="checkbox" />공공장소에서 말을 자제한다
+                  </form>
+                </td>
+              </tr>
+            </table>
+          </section>
+        </footer>
+      </div>
+      </div>
+       <!-- 웹페이지 하단에 표시되는 footer로, 한국외대 마크와 나에 대한 정보, 깃허브로 연결되는 버튼과 facebook, twitter에 공유할 수 있는 버튼이 있음 -->
+      <footer>
+        <p>
+            <img class="mark" src="images/한국외대 마크.png" width="70px" height="70px">
+            <span class="me">
+                학과: 컴퓨터전자시스템공학부<br>
+                이름: 윤다영<br>
+                학번: 202002265
+            </span>
+            <nav>
+              <a href="https://dada0013.github.io/" target="_blank">
+                  <img
+                    class="foot_img"
+                    src="images/github.png"
+                    alt="깃허브 페이지로 이동합니다"
+                    width="50"
+                    height="50"
+              /></a>
+              <script type="text/javascript" async>
+                  var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
+                  var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
+                  var url_default_tw_url = "&url=";
+                  var url_this_page = location.href;
+                  var title_this_page = document.title;
+                  var url_combine_fb = url_default_fb + url_this_page;
+                  var url_combine_tw =
+                    url_default_tw_txt +
+                    document.title +
+                    url_default_tw_url +
+                    url_this_page;
+                </script>
+                <a
+                  href=""
+                  onclick="window.open(url_combine_fb, '','scrollbars=no, width=600, height=600'); return false;"
+                >
+                  <img class="foot_img" src="images/페이스북.png" width="50" height="50"
+                /></a>
+                <a
+                  href=""
+                  onclick="window.open(url_combine_tw, '','scrollbars=no, width=600, height=600'); return false;"
+                >
+                  <img class="foot_img" src="images/트위터.jpg" width="50" height="50"
+                /></a>
+            </nav>
+        </p>
+    </footer>
+    </div>
+  </body>
+</html>

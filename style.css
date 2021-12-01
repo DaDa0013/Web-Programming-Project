@@ -1,0 +1,446 @@
+body {
+  font-family: "Noto Serif KR";
+  background-image: url("/images/background.png");
+}
+.title {
+  font-family: fantasy;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  font-size: 70px;
+}
+.menu {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(74, 226, 142, 0.7);
+  border-radius: 40px;
+  width: 600px;
+  height: 400px;
+}
+#table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 5%;
+}
+.imgLink {
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgb(70, 68, 68);
+}
+.Link {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(70, 68, 68);
+  padding: 5px;
+}
+section {
+  padding-bottom: 110px;
+  margin-bottom: 100px;
+}
+.site_title {
+  font-size: 40px;
+  text-align: center;
+}
+.site_title2 {
+  font-size: 25px;
+  text-decoration-line: none;
+  color: inherit;
+  text-align: center;
+  font-weight: bolder;
+}
+.site {
+  display: block;
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-style: dashed;
+}
+#table2 {
+  margin-left: 680px;
+  background-color: rgba(161, 150, 150, 0.5);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(70, 68, 68);
+}
+#wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 140px;
+}
+#in {
+  width: 1500px;
+  margin-left: 500px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+#in::after {
+  opacity: 0.5;
+}
+footer {
+  background-color: rgb(165, 160, 160);
+  width: 2500px;
+  height: 140px;
+  position: absolute;
+  bottom: 0px;
+}
+.mark {
+  display: block;
+  border-radius: 70px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.me {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-weight: bolder;
+}
+.visit {
+  font-family: sans-serif;
+}
+.rules {
+  display: block;
+  margin-bottom: 100px;
+  margin-left: 30px;
+  font-size: 20px;
+  width: 800px;
+}
+
+#up {
+  display: block;
+  width: 1155px;
+  margin-left: 15%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: aliceblue;
+}
+#down {
+  display: block;
+  width: 1100px;
+  margin-left: 15%;
+  font-size: 20px;
+  margin-top: 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  background-color: aliceblue;
+}
+#wrap_prime {
+  position: relative;
+  width: 70%;
+  padding-bottom: 140px;
+  padding-right: 30%;
+}
+#side {
+  position: fixed;
+  padding-left: 20px;
+  margin-left: 50px;
+  height: 700px;
+  width: 500px;
+  right: 150px;
+  top: 250px;
+  background-color: rgba(185, 180, 255, 0.5);
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.rule_table {
+  margin-left: 100px;
+  width: 900px;
+}
+.rules li:hover {
+  background-color: pink;
+  font-weight: bold;
+}
+.rules {
+  margin-left: 100px;
+}
+#left {
+  display: block;
+}
+#right {
+  position: absolute;
+  padding-left: 20px;
+  margin-left: 50px;
+  height: 600px;
+  width: 300px;
+  right: 500px;
+  top: 250px;
+  background-color: rgba(185, 180, 255, 0.5);
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+#table3 {
+  margin-left: 20%;
+  font-size: 25px;
+  margin-bottom: 20%;
+  margin-top: 20px;
+}
+
+.foot_img {
+  margin-top: 30px;
+  border-radius: 50px;
+}
+#checklist {
+  background-color: rgb(193, 212, 255, 0.7);
+  margin-right: 20px;
+  font-weight: bold;
+}
+form {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+#content1 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+#content2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+#content3 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+#content4 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+li {
+  margin-bottom: 10px;
+}
+.rule_content {
+  padding-bottom: 10px;
+}
+.symptom {
+  margin-left: 20%;
+  font-size: 20px;
+  margin-bottom: 10%;
+  width: 700px;
+}
+#checklist2 {
+  background-color: rgba(255, 249, 249, 0.7);
+  width: 270px;
+  font-weight: bold;
+}
+.symptom li:hover {
+  background-color: pink;
+  font-weight: bold;
+}
+.img {
+  position: relative;
+  top: 200px;
+  right: 650px;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+}
+.img:hover {
+  transform: rotate(-70deg);
+  transform: skew(0deg, -30deg);
+}
+#virus1 {
+  position: absolute;
+  left: 1700px;
+  bottom: 700px;
+}
+#virus2 {
+  position: absolute;
+  left: 700px;
+  bottom: 600px;
+}
+#virus3 {
+  position: absolute;
+  left: 750px;
+  bottom: 300px;
+}
+#virus4 {
+  position: absolute;
+  left: 1600px;
+  bottom: 400px;
+}
+#virus5 {
+  position: absolute;
+  left: 1100px;
+  bottom: 800px;
+}
+#virus6 {
+  position: absolute;
+  left: 1300px;
+  bottom: 200px;
+}
+#blue_checklist {
+  background-color: antiquewhite;
+  width: 700px;
+  margin-left: 20px;
+}
+
+#parent {
+  display: flex;
+}
+#blue_left {
+  width: 750px;
+  flex: 1;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+#blue_right {
+  flex: 1;
+  margin-left: 70px;
+  margin-bottom: 20%;
+}
+#symptom_left {
+  width: 750px;
+  flex: 1;
+  margin-right: 20%;
+}
+#symptom_right {
+  margin-top: 5%;
+  margin-left: 10%;
+  flex: 1;
+}
+.img_tel {
+  position: relative;
+  top: 800px;
+  right: 500px;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  border-radius: 200px;
+}
+@keyframes textColorAnimation {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+.list1 b {
+  animation-name: textColorAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.list2 li:hover {
+  background-color: pink;
+  font-weight: bold;
+}
+#table3 summary:hover {
+  font-size: larger;
+  font-weight: bolder;
+}
+#make {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Do Hyeon";
+  background-color: rgb(92, 115, 180);
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  left: 1500px;
+  border: none;
+}
+.tipButton {
+  left: 1500px;
+  border: none;
+  font-size: 30px;
+  font-family: "Do Hyeon";
+  background-color: rgb(92, 115, 180);
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+textarea {
+  display: block;
+  height: 100px;
+  width: 1000px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Do Hyeon";
+}
+
+.like {
+  position: absolute;
+  left: 1200px;
+  bottom: 20%;
+}
+.like > input {
+  border-radius: 20px;
+  height: 60px;
+  width: 60px;
+}
+.like > p {
+  font-size: 25px;
+  text-align: center;
+}
+.container {
+  position: relative;
+  height: 200px;
+  margin-left: 50px;
+}
+.container > p {
+  width: 1000px;
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: "Do Hyeon";
+}
+.Block {
+  display: inline-block;
+}
+
+html {
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Black Han Sans", sans-serif;
+  font-family: "Cute Font", cursive;
+  font-family: "Do Hyeon", sans-serif;
+  font-family: "Dokdo", cursive;
+  font-family: "East Sea Dokdo", cursive;
+  font-family: "Gaegu", cursive;
+  font-family: "Gamja Flower", cursive;
+  font-family: "Gothic A1", sans-serif;
+  font-family: "Gugi", cursive;
+  font-family: "Hi Melody", cursive;
+  font-family: "Jua", sans-serif;
+  font-family: "Kirang Haerang", cursive;
+  font-family: "Nanum Brush Script", cursive;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-family: "Nanum Myeongjo", serif;
+  font-family: "Nanum Pen Script", cursive;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Serif KR", serif;
+  font-family: "Poor Story", cursive;
+  font-family: "Single Day", cursive;
+  font-family: "Song Myung", serif;
+  font-family: "Stylish", sans-serif;
+  font-family: "Sunflower", sans-serif;
+  font-family: "Yeon Sung", cursive;
+}
