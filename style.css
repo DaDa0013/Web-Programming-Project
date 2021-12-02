@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Serif KR";
-  background-image: url("/images/background.png");
+  background-image: url("images/background.png");
 }
 .title {
   font-family: fantasy;
