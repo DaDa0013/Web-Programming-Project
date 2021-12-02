@@ -74,7 +74,7 @@ function initialSaveTip(num) {
 
   let likeButton = document.createElement("input");
   likeButton.type = "image";
-  likeButton.src = "/images/like.png";
+  likeButton.src = "images/like.png";
   likeButton.id = `likeButton${num}`;
   likeButton.addEventListener("click", function () {
     likeUp(num);
