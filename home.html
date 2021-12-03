@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 글씨체를 구글에서 link 태그로  가져옴 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu&family=Gamja+Flower&family=Gothic+A1&family=Gugi&family=Hi+Melody&family=Jua&family=Kirang+Haerang&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Noto+Sans+KR&family=Noto+Serif+KR&family=Poor+Story&family=Single+Day&family=Song+Myung&family=Stylish&family=Sunflower:wght@300&family=Yeon+Sung&display=swap"
+      rel="stylesheet"
+    />
+    <script src="local_storage.js"></script>
+    <meta charset="UTF-8" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>Corona Web</title>
+  </head>
+  <body onload="checkVisitor()">
+    <div id="wrap">
+      <div class="visit">
+        <!-- 방문자의 이름을 받아서 화면 왼쪽 상단에 문구와 함께 출력 -->
+        <span id="hello"></span> 님! 오늘도 코로나 없는 하루 보내세요!😘<br />
+        방문시간: <span id="visit_date"></span>
+      </div>
+      <h1 class="title">Covid-19</h1>
+      <div class="menu">
+        <!-- 여러 페이지로 이동할 수 있는 버튼들의 모음 -->
+        <table id="table">
+          <tr>
+            <td>
+              <a href="corona_number.html">
+                <img
+                  class="imgLink"
+                  src="images/number.png"
+                  alt="코로나 실 현황 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="rule.html">
+                <img
+                  class="imgLink"
+                  src="images/수칙.png"
+                  alt="예방 및 방역 수칙 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="symptom.html">
+                <img
+                  class="imgLink"
+                  src="images/symptom.png"
+                  alt="코로나 바이러스 증상 페이지로 이동합니다."
+                />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a class="Link" href="corona_number.html"> 코로나 실 현황 </a>
+            </td>
+            <td><a class="Link" href="rule.html">예방 & 방역 수칙</a></td>
+            <td><a class="Link" href="symptom.html">코로나 증상</a></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="about_corona.html">
+                <img
+                  class="imgLink"
+                  src="images/about_corona.png"
+                  alt="about 코로나 페이지로 이동합니다."
+                />
+              </a>
+            </td>
+            <td>
+              <a href="corona_blue.html">
+                <img
+                  class="imgLink"
+                  src="images/corona_blue.png"
+                  alt="코로나 블루 페이지로 이동합니다."
+              /></a>
+            </td>
+            <td>
+              <a href="tip.html">
+                <img
+                  class="imgLink"
+                  src="images/tip.png"
+                  alt="생활 팁 페이지로 이동합니다."
+              /></a>
+            </td>
+          </tr>
+          <tr>
+            <td><a class="Link" href="about_corona.html"> 코로나 정보 </a></td>
+            <td><a class="Link" href="corona_blue.html">코로나 블루</a></td>
+            <td><a class="Link" href="tip.html">코로나 생활 팁</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
