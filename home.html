@@ -7,11 +7,12 @@
       href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu&family=Gamja+Flower&family=Gothic+A1&family=Gugi&family=Hi+Melody&family=Jua&family=Kirang+Haerang&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Noto+Sans+KR&family=Noto+Serif+KR&family=Poor+Story&family=Single+Day&family=Song+Myung&family=Stylish&family=Sunflower:wght@300&family=Yeon+Sung&display=swap"
       rel="stylesheet"
     />
+    <script src="local_storage.js"></script>
     <meta charset="UTF-8" />
     <link href="style.css" type="text/css" rel="stylesheet" />
     <title>Corona Web</title>
   </head>
-  <body>
+  <body onload="checkVisitor()">
     <div id="wrap">
       <div class="visit">
         <!-- 방문자의 이름을 받아서 화면 왼쪽 상단에 문구와 함께 출력 -->
@@ -91,13 +92,5 @@
       </div>
     </div>
     <!-- prompt창으로 방문자의 이름을 받아 화면에 출력하도록 함 -->
-    <script>
-      var name = prompt("이름을 입력하시오");
-      if (!name) {
-        name = "방문자";
-      }
-      var NAME = document.getElementById("hello");
-      NAME.innerHTML = name;
-    </script>
   </body>
 </html>
